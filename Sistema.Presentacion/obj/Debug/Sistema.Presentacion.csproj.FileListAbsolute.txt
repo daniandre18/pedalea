@@ -1,0 +1,6 @@
+C:\Users\Danilo\Downloads\Sistema\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.csproj.AssemblyReference.cache
+C:\Users\Danilo\Downloads\Sistema\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Danilo\Downloads\Sistema\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.exe
+C:\Users\Danilo\Downloads\Sistema\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.pdb
+C:\ProyectoCS\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.csproj.AssemblyReference.cache
+C:\ProyectoCS\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.csproj.SuggestedBindingRedirects.cache

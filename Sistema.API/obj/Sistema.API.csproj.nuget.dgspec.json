@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ProyectoCS\\Sistema\\Sistema.API\\Sistema.API.csproj": {}
+  },
+  "projects": {
+    "C:\\ProyectoCS\\Sistema\\Sistema.API\\Sistema.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProyectoCS\\Sistema\\Sistema.API\\Sistema.API.csproj",
+        "projectName": "Sistema.API",
+        "projectPath": "C:\\ProyectoCS\\Sistema\\Sistema.API\\Sistema.API.csproj",
+        "packagesPath": "C:\\Users\\Danilo\\.nuget\\packages\\",
+        "outputPath": "C:\\ProyectoCS\\Sistema\\Sistema.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Danilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\ProyectoCS\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+                "projectPath": "C:\\ProyectoCS\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj"
+              },
+              "C:\\ProyectoCS\\Sistema\\Sistema.Negocio\\Sistema.Negocio.csproj": {
+                "projectPath": "C:\\ProyectoCS\\Sistema\\Sistema.Negocio\\Sistema.Negocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProyectoCS\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\ProyectoCS\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj",
+        "projectName": "Sistema.Datos",
+        "projectPath": "C:\\ProyectoCS\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\ProyectoCS\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+                "projectPath": "C:\\ProyectoCS\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\ProyectoCS\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\ProyectoCS\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
+        "projectName": "Sistema.Entidades",
+        "projectPath": "C:\\ProyectoCS\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\ProyectoCS\\Sistema\\Sistema.Negocio\\Sistema.Negocio.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\ProyectoCS\\Sistema\\Sistema.Negocio\\Sistema.Negocio.csproj",
+        "projectName": "Sistema.Negocio",
+        "projectPath": "C:\\ProyectoCS\\Sistema\\Sistema.Negocio\\Sistema.Negocio.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\ProyectoCS\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj": {
+                "projectPath": "C:\\ProyectoCS\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj"
+              },
+              "C:\\ProyectoCS\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+                "projectPath": "C:\\ProyectoCS\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
